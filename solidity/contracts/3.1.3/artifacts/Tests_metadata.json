@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "tests",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"solidity/3.1.3/Tests.sol": "Tests"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"solidity/3.1.3/Tests.sol": {
+			"keccak256": "0x1f6d178af004763a4a1ed3586b6f69907ce16226d868c1d1f2f3e54cb71b2da8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3a2605d2ad28c2f58a8961b47fb53af46ffa1c3cfcb83620305326e7b5b6a04f",
+				"dweb:/ipfs/QmXduCnB5PGHgHNDP9p7UKf4iAsFVQGgospE3cSdQ6jw5B"
+			]
+		}
+	},
+	"version": 1
+}

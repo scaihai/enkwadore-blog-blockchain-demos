@@ -1,0 +1,77 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "newOwner",
+						"type": "address"
+					}
+				],
+				"name": "changeOwner",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"solidity/2.3/MultipleModifiersExample.sol": "MultipleModifiersExample"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"solidity/2.3/MultipleModifiersExample.sol": {
+			"keccak256": "0xc12f6bcf24c9ce44d993d8bf1094448eb466e1b765abb7e926c9e3d27580c46c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://259b2f3e6d4b6909d9c77543851f20b6ab8cda748b55b9090c7d264467e7a7dd",
+				"dweb:/ipfs/QmWq5GmkpRP416TrJoS1fJGB33xRvCBQ6RCqsbRsvabucQ"
+			]
+		}
+	},
+	"version": 1
+}

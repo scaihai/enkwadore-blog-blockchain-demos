@@ -1,0 +1,77 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_recipient",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "recipient",
+				"outputs": [
+					{
+						"internalType": "address payable",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "sendEther",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"solidity/3.1.3/SimpleTransfer.sol": "SimpleTransfer"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"solidity/3.1.3/SimpleTransfer.sol": {
+			"keccak256": "0x6a9d3db8ff75a9c9aa8a3f33d745a7ab4b2091c986bf75140b505cd683b065ed",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e5d62d21b92857719472013fbc3d3c4e375783651d884e036ab4cb3704d4c7db",
+				"dweb:/ipfs/QmSt5gsWs4A8E8cnuqAq5tM1vX7EQ35X72UfcHSAWi26os"
+			]
+		}
+	},
+	"version": 1
+}

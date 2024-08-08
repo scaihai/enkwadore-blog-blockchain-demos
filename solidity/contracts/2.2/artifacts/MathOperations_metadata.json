@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "b",
+						"type": "uint256"
+					}
+				],
+				"name": "add",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"solidity/2.2/MathOperations.sol": "MathOperations"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"solidity/2.2/MathOperations.sol": {
+			"keccak256": "0xef4280296680a551c62d0c85fa3b90fd1b0439f08c0143a0f749b4d7789e25c9",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://862d0b638cfb9b1b104dfd2c5dee30419268a639b507708e60ef700225c38f0e",
+				"dweb:/ipfs/QmSiPNyc7hxc13UajvRhyxdPKnLcL3bx7FZJKNDYrUETRS"
+			]
+		}
+	},
+	"version": 1
+}

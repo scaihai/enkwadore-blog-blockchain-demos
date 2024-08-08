@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "status",
+				"outputs": [
+					{
+						"internalType": "enum Shipping.Status",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"solidity/2.7/Shipping.sol": "Shipping"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"solidity/2.7/Shipping.sol": {
+			"keccak256": "0x18b75e2ecd2db7e661de2a12ed7ac943bb1f15369dffe6dad9a77249e707ec15",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8fa4d0f1c93bfda94c4266a6cd52b07ed3be7dcad281479506a05bd4f746a45e",
+				"dweb:/ipfs/QmcPe3kRyLZVd68spEyy5JvmwXBswaV7SNjKnNoBNMiZc5"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,67 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "contractInstance",
+				"outputs": [
+					{
+						"internalType": "contract MyContract6",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"solidity/1.3/contracts/MyContract3.sol": "MyContract3"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"solidity/1.3/contracts/MyContract3.sol": {
+			"keccak256": "0x6d360821a2dd61a8efa41970cf63816ceafcafa74def842e617091534f73e436",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e22cef416dd4745209f3444a7dd7dd769140ee5e849f68b0f1b588d484841ce0",
+				"dweb:/ipfs/QmcUZnop7dxfjNRNqS5SXmCNJMxnbqk2DBrxMei1jebzTa"
+			]
+		},
+		"solidity/1.3/contracts/MyLibrary1.sol": {
+			"keccak256": "0x981fee8db6f89b4341f3879865704e6ec03056273e76c9d9b4d3c7ed606bdb12",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2a47b18531c693a023f0556a20934378416c651818f18396e4d33678e5663f5c",
+				"dweb:/ipfs/QmSxDa5ZuWhoY8YUiuquaz6Gn8PFZfpheK6MA7C2KiimdN"
+			]
+		}
+	},
+	"version": 1
+}

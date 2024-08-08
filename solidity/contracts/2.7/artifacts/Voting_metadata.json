@@ -1,0 +1,79 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "advanceStage",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getStage",
+				"outputs": [
+					{
+						"internalType": "enum Voting.Stage",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "stage",
+				"outputs": [
+					{
+						"internalType": "enum Voting.Stage",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"solidity/2.7/Voting.sol": "Voting"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"solidity/2.7/Voting.sol": {
+			"keccak256": "0xe60ada86feb60a9c3bcb7487181b26e3b438c9ef6851e93b6b9d18f2015f66da",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://fceefeb9858ca7192de1464b5b856e11350725d10bada685ba73f66191a7d4ea",
+				"dweb:/ipfs/QmeizHfmzVd7ztKprpKmTc4ttPguTs6ShBFNEoN58fiA2D"
+			]
+		}
+	},
+	"version": 1
+}

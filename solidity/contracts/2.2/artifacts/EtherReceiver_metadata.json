@@ -1,0 +1,54 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"solidity/2.2/EtherReceiver.sol": "EtherReceiver"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"solidity/2.2/EtherReceiver.sol": {
+			"keccak256": "0xb50609a09da4b52931ed3fbb74010ff90d3621b0a1af373328b774f659d0d949",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a38b2c42117e20bc69785469f08a5953f96063a47413d2b0f8cf5bbbb0337ce7",
+				"dweb:/ipfs/QmeQkQwtcC8p9vEhQnzZgu5fLNRihZLBybp3wxNHuc77FT"
+			]
+		}
+	},
+	"version": 1
+}

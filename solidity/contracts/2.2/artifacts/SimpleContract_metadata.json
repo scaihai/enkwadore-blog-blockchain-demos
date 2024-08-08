@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "greet",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"solidity/2.2/SimpleContract.sol": "SimpleContract"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"solidity/2.2/SimpleContract.sol": {
+			"keccak256": "0x6235f15f87314d6b981dfdf1a74d958ed1202d48dadf5eb0784d0c897314dabd",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5424a64aa593bd19fd4190841ff632f11c7aaea59c8e9beeed7c528bfe63c79d",
+				"dweb:/ipfs/QmNsVoNDAyHxKJhVJi1oRe7nTdurbk2DjCMFEkauS2Tevr"
+			]
+		}
+	},
+	"version": 1
+}

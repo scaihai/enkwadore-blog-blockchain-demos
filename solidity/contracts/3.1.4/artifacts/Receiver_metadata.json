@@ -1,0 +1,50 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"solidity/3.1.4/Receiver.sol": "Receiver"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"solidity/3.1.4/Receiver.sol": {
+			"keccak256": "0xfc5b9e4e18adfa8c8712fa75457eb4360b78ef9c4ff631d8b1e2515120aadd44",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e721e340b11315494c9eb05d71558974c1f37c97845c43cceaaa7a6ed864a5ab",
+				"dweb:/ipfs/QmZBSdjEKSUQxxoK1e9YY1YnYaprRAKdXqM4E1FqfcbqWL"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,104 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getValue",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_value",
+						"type": "uint256"
+					}
+				],
+				"name": "setValue",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "value",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {
+				"getValue()": {
+					"returns": {
+						"_0": "The current value of `value`."
+					}
+				},
+				"setValue(uint256)": {
+					"details": "Ensure that the input value is a positive integer.",
+					"params": {
+						"_value": "The new value to be set."
+					}
+				}
+			},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"getValue()": {
+					"notice": "Retrieve the current value of the state variable `value`."
+				},
+				"setValue(uint256)": {
+					"notice": "This function sets the value of the state variable `value`."
+				}
+			},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"solidity/1.4/MultiLineNatSpecCommentExample.sol": "MultiLineNatSpecCommentExample"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"solidity/1.4/MultiLineNatSpecCommentExample.sol": {
+			"keccak256": "0xd533fcf83847645efa956dae03a5452a25babfe4ec6f3d334d4f89a1a2588334",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://208c94832111546b29221c6b327e2bd1b9d83b62fb95e27f784cdc3a04cec1da",
+				"dweb:/ipfs/Qmb7ADLLh1DmkHG7EGCRDF3xzXFR25LiSgkr3AzwySZQrX"
+			]
+		}
+	},
+	"version": 1
+}

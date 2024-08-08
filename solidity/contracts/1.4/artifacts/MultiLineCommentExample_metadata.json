@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_value",
+						"type": "uint256"
+					}
+				],
+				"name": "setValue",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "value",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"solidity/1.4/MultiLineCommentExample.sol": "MultiLineCommentExample"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"solidity/1.4/MultiLineCommentExample.sol": {
+			"keccak256": "0xe4faf53cb9dabb3e6a857f4465e2874092cffd152e09c72436c5d8d8e10c280a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0efc7dfd4863126303f033ec7eae3adb1dcf902a307b5f07ef234ea0d504697c",
+				"dweb:/ipfs/QmdwraaovBCjkca2j6Na2FUmguPCLiRre3UjFiGF5PfM8i"
+			]
+		}
+	},
+	"version": 1
+}
