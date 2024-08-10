@@ -2,8 +2,10 @@
 pragma solidity ^0.8.0;
 
 contract PaymentContract {
+    event Received(address, uint);
+    
     receive() external payable {
-        // do nothing
+        emit Received(msg.sender, msg.value);
     }
 }
 
